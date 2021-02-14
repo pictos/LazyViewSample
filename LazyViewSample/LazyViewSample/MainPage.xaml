@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="LazyViewSample.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="MyPage">
+
+    <StackLayout VerticalOptions="Center">
+        <Button
+            Command="{Binding NavigateCommand}"
+            CommandParameter="1"
+            Text="{Binding Text}" />
+        <Button
+            Command="{Binding NavigateCommand}"
+            CommandParameter="2"
+            Text="Activation Page" />
+        <Button
+            Command="{Binding NavigateCommand}"
+            CommandParameter="3"
+            Text="Image Page" />
+    </StackLayout>
+
+</ContentPage>
