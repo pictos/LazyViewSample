@@ -33,6 +33,7 @@ namespace LazyViewSample
 				1 => new RootTabView(),
 				2 => new ActivationPage(),
 				3 => new ImagePage(),
+				4 => new OriginalLazyViewPage(),
 				_ => null
 			};
 

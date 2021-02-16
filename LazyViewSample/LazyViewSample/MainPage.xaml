@@ -18,6 +18,10 @@
             Command="{Binding NavigateCommand}"
             CommandParameter="3"
             Text="Image Page" />
+        <Button
+            Command="{Binding NavigateCommand}"
+            CommandParameter="4"
+            Text="Original LazyView Page" />
     </StackLayout>
 
 </ContentPage>
